@@ -26,7 +26,7 @@ export default function GovFooter() {
           <div className="site-footer-col">
             <h4>{t('quickLinks')}</h4>
             <ul>
-              <li><a href="https://tribal.nic.in" target="_blank" rel="noopener noreferrer">{t('ministryPortal')}</a></li>
+
               <li><a href="https://www.iitd.ac.in" target="_blank" rel="noopener noreferrer">{t('iitDelhi')}</a></li>
               <li><a href="https://india.gov.in" target="_blank" rel="noopener noreferrer">{t('indiaGov')}</a></li>
               <li><a href="https://nic.in" target="_blank" rel="noopener noreferrer">NIC — National Informatics Centre</a></li>
