@@ -34,7 +34,8 @@ BidSchema.index({ listingId: 1, amountPaise: -1 });
 BidSchema.index({ bidderId: 1, createdAt: -1 });
 
 BidSchema.set('toJSON', {
-  transform: (_doc, ret: Record<string, unknown>) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  transform: (_doc, ret: any) => {
     if (ret._id) ret.id = String(ret._id);
     delete ret._id;
     return ret;

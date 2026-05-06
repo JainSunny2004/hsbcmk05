@@ -512,7 +512,7 @@ export async function sweepExpiredListings() {
   for (const row of expired) {
     try {
       const res = await settleListing(row.listingId);
-      results.push({ listingId: row.listingId, status: res.status });
+      results.push({ listingId: row.listingId, status: (res as unknown as { status: string }).status });
     } catch (err) {
       console.error(`[marketplace.service] sweep failed for ${row.listingId}:`, err);
     }
