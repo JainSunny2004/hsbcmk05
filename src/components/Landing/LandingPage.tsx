@@ -206,7 +206,7 @@ export default function LandingPage() {
             <div className="lp-gov-brand-text">
               <span className="lp-gov-title-hi" lang="hi">भारत सरकार | जनजातीय कार्य मंत्रालय</span>
               <span className="lp-gov-title-en">Government of India &nbsp;|&nbsp; Ministry of Tribal Affairs</span>
-              <span className="lp-gov-subtitle">HoneyTRACE — Blockchain Traceability Portal</span>
+              <span className="lp-gov-subtitle">HoneyTRACE — blockchain traceability Portal</span>
             </div>
             <span className="lp-gov-sep" aria-hidden="true" />
             <img src="/logos/iit-delhi.jpg" alt="IIT Delhi" className="lp-gov-iit" />
