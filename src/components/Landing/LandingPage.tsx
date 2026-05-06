@@ -198,11 +198,6 @@ export default function LandingPage() {
         <div className="lp-gov-header-inner">
           {/* Left: Emblem + Ministry branding */}
           <div className="lp-gov-brand">
-            <img
-              src="/logos/ministry-tribal-affairs.svg"
-              alt="Government of India – Ministry of Tribal Affairs"
-              className="lp-gov-emblem"
-            />
             <div className="lp-gov-brand-text">
               <span className="lp-gov-title-hi" lang="hi">भारत सरकार | जनजातीय कार्य मंत्रालय</span>
               <span className="lp-gov-title-en">Government of India &nbsp;|&nbsp; Ministry of Tribal Affairs</span>

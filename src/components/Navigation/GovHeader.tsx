@@ -31,17 +31,6 @@ export default function GovHeader() {
       </div>
 
       <div className="gov-header-inner">
-        {/* Left: Government branding */}
-        <div className="gov-header-brand">
-          <img
-            src="/logos/ministry-tribal-affairs.svg"
-            alt="Ministry of Tribal Affairs, Government of India"
-            className="gov-logo"
-            width={160}
-            height={48}
-          />
-        </div>
-
         {/* Right: Accessibility toolbar (GIGW §4.3) */}
         <div className="gov-header-tools" role="toolbar" aria-label="Accessibility tools">
           <div className="gov-font-sizer" role="group" aria-label="Font size">

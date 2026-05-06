@@ -14,7 +14,6 @@ export default function GovFooter() {
           {/* Column 1 — Branding */}
           <div className="site-footer-col">
             <div className="site-footer-logos">
-              <img src="/logos/ministry-tribal-affairs.svg" alt="Ministry of Tribal Affairs" />
               <img src="/logos/iit-delhi.svg" alt="IIT Delhi" />
             </div>
             <p className="site-footer-copy">{t('copyright')}</p>
