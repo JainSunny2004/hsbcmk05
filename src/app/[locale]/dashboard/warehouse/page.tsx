@@ -125,7 +125,7 @@ export default function WarehouseDashboard() {
   const pageHeader = (
     <div className="wd-header">
       <div className="wd-header-left">
-        <p className="wd-role-tag">Warehouse Operations · HoneyTRACE</p>
+        <p className="wd-role-tag">Warehouse Operations</p>
         <h1 className="wd-title">{tDashboard('warehouse_ops')}</h1>
         <p className="wd-subtitle">{tDashboard('ops_description')}</p>
       </div>

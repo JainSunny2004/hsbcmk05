@@ -68,7 +68,7 @@ export default function BlockchainCertificate({
           <div className="flex justify-between items-start border-b-2 border-slate-200 pb-spacing-md">
             <div>
               <div className="flex items-center gap-2 text-primary font-bold uppercase tracking-widest text-[10px] mb-1">
-                <Security size={16} /> Secured by HoneyTRACE
+                <Security size={16} /> Secured by blockchain
               </div>
               <h2 className="text-h2 !text-2xl text-slate-900">{batchId}</h2>
             </div>
@@ -121,7 +121,7 @@ export default function BlockchainCertificate({
                 </div>
              </div>
              <p className="text-[10px] italic text-slate-400 max-w-[200px] text-right">
-                This document is a digital representation of an immutable record on the HoneyTRACE blockchain.
+                This document is a digital representation of an immutable record on the blockchain.
              </p>
           </div>
         </Stack>

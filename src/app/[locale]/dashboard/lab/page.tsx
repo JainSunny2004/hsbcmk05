@@ -194,7 +194,7 @@ export default function LabDashboard() {
   const pageHeader = (
     <div className="ld-header">
       <div className="ld-header-left">
-        <p className="ld-role-tag">Lab Analysis · HoneyTRACE</p>
+        <p className="ld-role-tag">Lab Analysis</p>
         <h1 className="ld-title">{tDashboard('lab_header')}</h1>
         <p className="ld-subtitle">{tDashboard('lab_description')}</p>
       </div>

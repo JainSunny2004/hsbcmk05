@@ -11,13 +11,13 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 import ServiceWorkerRegistrar from '@/components/ServiceWorkerRegistrar';
 
 export const metadata: Metadata = {
-  title: 'HoneyTRACE — blockchain traceability | Ministry of Tribal Affairs × IIT Delhi',
+  title: 'blockchain traceability | Ministry of Tribal Affairs × IIT Delhi',
   description: 'GS1 EPCIS 2.0 compliant honey supply chain traceability platform. A Government of India initiative by Ministry of Tribal Affairs in collaboration with IIT Delhi.',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'HoneyTRACE',
+    title: 'blockchain traceability',
   },
 };
 

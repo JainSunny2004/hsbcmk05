@@ -270,7 +270,7 @@ const HoneyHeader = () => {
             <div className="logout-dialog-icon">
               <Logout size={22} />
             </div>
-            <h2 className="logout-dialog-title">Sign out of HoneyTRACE?</h2>
+            <h2 className="logout-dialog-title">Sign out?</h2>
             <p className="logout-dialog-desc">
               Any unsaved changes will be lost. You will need to sign in again to continue.
             </p>

@@ -42,7 +42,7 @@ export default function QRCodeGenerator({ batchId, compact = false }: QRCodeGene
       URL.revokeObjectURL(url);
 
       const link    = document.createElement('a');
-      link.download = `HoneyTrace-${batchId}.png`;
+      link.download = `QR-${batchId}.png`;
       link.href     = canvas.toDataURL('image/png');
       link.click();
     };
@@ -58,7 +58,7 @@ export default function QRCodeGenerator({ batchId, compact = false }: QRCodeGene
       <!DOCTYPE html>
       <html>
         <head>
-          <title>HoneyTrace QR – ${batchId}</title>
+          <title>QR – ${batchId}</title>
           <style>
             body { display: flex; flex-direction: column; align-items: center;
                    justify-content: center; min-height: 100vh; margin: 0;
@@ -69,7 +69,7 @@ export default function QRCodeGenerator({ batchId, compact = false }: QRCodeGene
           </style>
         </head>
         <body>
-          <h2>HoneyTrace Verification</h2>
+          <h2>Verification</h2>
           ${svgHtml}
           <p><strong>Batch ID: ${batchId}</strong></p>
           <p>Scan to verify origin &amp; journey</p>

@@ -352,7 +352,7 @@ export default function SecretaryDashboard() {
   const pageHeader = (
     <div className="sd-header">
       <div className="sd-header-left">
-        <p className="sd-role-tag">Government Secretary · HoneyTRACE</p>
+        <p className="sd-role-tag">Government Secretary</p>
         <h1 className="sd-title">{tDashboard('strategic_overview')}</h1>
         <p className="sd-subtitle">{tDashboard('ops_description')}</p>
       </div>

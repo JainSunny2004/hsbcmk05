@@ -151,7 +151,7 @@ export default function ConsumerPortal() {
         </div>
         <div className="page-header-text">
           <span className="page-header-eyebrow">Consumer Portal</span>
-          <h1 className="page-header-title">HoneyTrace Consumer Portal</h1>
+          <h1 className="page-header-title">Consumer Portal</h1>
           <p className="page-header-subtitle">{tDashboard('portal_subtitle')}</p>
         </div>
       </div>

@@ -138,7 +138,7 @@ export default function OfficerDashboard() {
   const pageHeader = (
     <div className="od-header">
       <div className="od-header-left">
-        <p className="od-role-tag">Quality Control Officer · HoneyTRACE</p>
+        <p className="od-role-tag">Quality Control Officer</p>
         <h1 className="od-title">{tDashboard('qc_header')}</h1>
         <p className="od-subtitle">{tDashboard('qc_description')}</p>
       </div>
